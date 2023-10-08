@@ -1,0 +1,56 @@
+.back{
+    margin: 0 auto;
+    background-image: url(../images/stack-back.png);
+    padding-bottom: 50px;
+    background-position: center;
+    zoom: 105%;
+}
+
+.experience-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.exp-text{
+    width: 500px;
+    color: #CCD6F6;
+text-align: center;
+font-family: Source Code Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 30px;
+}
+
+.exp{
+    color: #61F7D4;
+font-family: Source Code Pro;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 30px;
+}
+
+.stack{
+    margin-top: 50px;
+}
+
+.visit{
+    color: #FFF;
+text-align: center;
+font-family: Source Code Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 40px;
+}
+
+.links{
+    flex-direction: row;
+    margin-top: 20px;
+}

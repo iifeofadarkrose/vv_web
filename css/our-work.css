@@ -1,0 +1,16 @@
+.work-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.our-work{
+    color: #61F7D4;
+font-family: Source Code Pro;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 30px;
+}

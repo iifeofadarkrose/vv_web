@@ -1,0 +1,41 @@
+.about-us-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-text{
+    width: 500px;
+}
+
+.about{
+    color: #61F7D4;
+font-family: Source Code Pro;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.we-are{
+    color: #FFF;
+font-family: Source Code Pro;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+}
+
+.front{
+    color: #CCD6F6;
+font-family: Source Code Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 41.293px; /* 258.08% */
+}
+
+.main-pic{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}

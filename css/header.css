@@ -1,0 +1,43 @@
+.container{
+    margin: 0 auto;
+    background: #00032B;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 72px;
+    font-family: Source Code Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 170px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list-item {
+    padding: 3px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+}
+
+.nav-list-item:hover {
+    border-color: #61F7D4; 
+}
+
+.span-nav {
+    color: #61F7D4;
+}
