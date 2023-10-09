@@ -14,3 +14,162 @@ font-weight: 700;
 line-height: normal;
 margin-bottom: 30px;
 }
+
+
+.splide{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 460px;
+    width: 1000px;
+    border-radius: 30px;
+    padding-bottom: 50px;
+}
+
+.splide-ph{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.splide__list{
+    border-radius: 30px;
+}
+
+
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 100px;
+    background-image: url(../images/Rectangle\ 532.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+    gap: 10px;
+    
+}
+
+.more img{
+    width: 30px;
+    height: 30px;
+}
+
+.more-work{
+    color: #00021E;
+text-align: center;
+font-family: Source Code Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 13px;
+}
+
+.work{
+    margin: 0 auto;
+    background-image: url(../images/BG.png);
+    background-color: #00021E;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.line {
+    margin-top: 20px;
+    width: 1000px; 
+    height: 3px; 
+    background-color: rgb(255, 255, 255); 
+  }
+
+.rights{
+margin-top: 40px;
+margin-bottom: 30px;
+    color: #FFF;
+font-family: Source Code Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.splide__pagination__page {
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
+
+.dg-container{
+	width: 100%;
+	height: 450px;
+	position: relative;
+    margin-top: 190px;
+}
+.dg-wrapper{
+	width: 481px;
+	height: 316px;
+	margin: 0 auto;
+	position: relative; 
+	transform-style: preserve-3d;
+	 perspective: 1000px;
+}
+.dg-wrapper a{
+	width: 482px;
+	height: 316px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	 
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+.dg-wrapper a.dg-transition{
+ 	transition: all 0.5s ease-in-out;
+}
+.dg-wrapper a img{
+	display: block;
+	 border: 3px solid white;
+     border-radius: 15px;
+}
+.dg-wrapper a div{
+	font-style: italic;
+	text-align: center;
+	line-height: 50px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+	color: #333;
+	font-size: 16px;
+	width: 100%;
+	bottom: -55px;
+	display: none;
+	position: absolute;
+}
+.dg-wrapper a.dg-center div{
+	display: block;
+}
+.dg-container nav{
+	width: 58px;
+	position: absolute;
+	z-index: 1000;
+	bottom: 40px;
+	left: 50%;
+	margin-left: -29px;
+}
+.dg-container nav span{
+	text-indent: -9000px;
+	float: left;
+	cursor:pointer;
+	width: 24px;
+	height: 25px;
+	opacity: 0.8;
+	background: transparent url(../images/arrows.png) no-repeat top left;
+}
+.dg-container nav span:hover{
+	opacity: 1;
+}
+.dg-container nav span.dg-next{
+	background-position: top right;
+	margin-left: 10px;
+}
